@@ -22,7 +22,7 @@ spring:
       max-wait-millis: 200 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: cn.test.springcloud.entities
+  type-aliases-package: src.main.java.cn.test.springcloud.entities
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
 
@@ -63,7 +63,7 @@ spring:
   
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: cn.test.springcloud.entities
+  type-aliases-package: src.main.java.cn.test.springcloud.entities
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
 
